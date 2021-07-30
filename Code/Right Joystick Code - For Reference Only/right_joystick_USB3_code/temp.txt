@@ -1,0 +1,39 @@
+#define Pitch_max_value 14500  //Set to the max value of Pitch Axis
+#define Pitch_min_value 11000  //Set to the min value of Pitch Axis
+#define deadzone_lower_Pitch 13200  //Set these to the lower and upper limits of Pitch wiggle on joystick before springs kick in
+#define deadzone_upper_Pitch 13330  //Set to the same as the lower to disable
+#define deadzone_range_Pitch ((deadzone_lower_Pitch - deadzone_upper_Pitch) / 2)  //Do not touch - calculate half of the range of the deadzone
+#define Pitch_offset ((Pitch_max_value - Pitch_min_value) / 2)  //Do not touch - calculate half the range of possible input values - used to offset this axis around 0 to allow for inverting
+#define max_Pitch (Pitch_offset  - deadzone_range_Pitch)  //Do not touch - calculate the software max value based on previous configuration
+#define min_Pitch ((-1 * Pitch_offset) + deadzone_range_Pitch)  //Do not touch - calculate the software min value based on previous configuration
+#define invert_Pitch -1  //Change the sign on the 1 to invert the Pitch axis
+
+#define Roll_max_value 15350  //Set to the max value of Roll Axis
+#define Roll_min_value 10300  //Set to the min value of Roll Axis
+#define deadzone_lower_Roll 12150  //Set these to the lower and upper limits of Roll wiggle on joystick before springs kick in
+#define deadzone_upper_Roll 12400  //Set to the same as the lower to disable
+#define deadzone_range_Roll ((deadzone_lower_Roll - deadzone_upper_Roll) / 2)  //Do not touch - calculate half of the range of the deadzone
+#define Roll_offset ((Roll_max_value - Roll_min_value) / 2)  //Do not touch - calculate half the range of possible input values - used to offset this axis around 0 to allow for inverting
+#define max_Roll (Roll_offset - deadzone_range_Roll)  //Do not touch - calculate the software max value based on previous configuration
+#define min_Roll ((-1 * Roll_offset) + deadzone_range_Roll)  //Do not touch - calculate the software min value based on previous configuration
+#define invert_Roll -1  //Change the sign on the 1 to invert the Roll axis
+
+#define Yaw_max_value 14200  //Set to the max value of Yaw Axis
+#define Yaw_min_value 9700  //Set to the min value of Yaw Axis
+#define deadzone_lower_Yaw 11750  //Set these to the lower and upper limits of Yaw wiggle on joystick before springs kick in
+#define deadzone_upper_Yaw 12000  //Set to the same as the lower to disable
+#define deadzone_range_Yaw ((deadzone_lower_Yaw - deadzone_upper_Yaw) / 2)  //Do not touch - calculate half of the range of the deadzone
+#define Yaw_offset ((Yaw_max_value - Yaw_min_value) / 2)  //Do not touch - calculate half the range of possible input values - used to offset this axis around 0 to allow for inverting
+#define max_Yaw (Yaw_offset - deadzone_range_Yaw)  //Do not touch - calculate the software max value based on previous configuration
+#define min_Yaw ((-1 * Yaw_offset) + deadzone_range_Yaw)  //Do not touch - calculate the software min value based on previous configuration
+#define invert_Yaw -1  //Change the sign on the 1 to invert the Yaw axis
+
+#define Throttle_max_value 24900  //Set to the max value of Throttle Axis
+#define Throttle_min_value 0  //Set to the min value of Throttle Axis
+#define deadzone_lower_Throttle 12000  //Set these to the lower and upper limits of Throttle wiggle on joystick before springs kick in
+#define deadzone_upper_Throttle 12000  //Set to the same as the lower to disable
+#define deadzone_range_Throttle ((deadzone_lower_Throttle - deadzone_upper_Throttle) / 2)  //Do not touch - calculate half of the range of the deadzone
+#define Throttle_offset ((Throttle_max_value -Throttle_min_value) / 2)  //Do not touch - calculate half the range of possible input values - used to offset this axis around 0 to allow for inverting
+#define max_Throttle (Throttle_offset - deadzone_range_Throttle)  //Do not touch - calculate the software max value based on previous configuration
+#define min_Throttle ((-1 * Throttle_offset) + deadzone_range_Throttle)  //Do not touch - calculate the software min value based on previous configuration
+#define invert_Throttle 1  //Change the sign on the 1 to invert the Throttle axis

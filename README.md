@@ -5,13 +5,16 @@ This model uses hall-effect sensors for high accuracy inputs into flight simulat
 
 I have also created an optional Throttle-Assembly. To use it, a joystick can be mounted onto the sliding carriage on the Throttle-Assembly and a 3-pin-wire can be plugged into the joystick from the Throttle-Assembly, and a switch can be flipped on the joystick base to enable the external throttle input instead of the internal throttle input.
 
-Credit Goes To:
-	
-	Thingiverse user akaki for the original joystick model that I modified: https://www.thingiverse.com/thing:4576634
-	Thingiverse user droftarts for their OpenSCAD pulley generator: https://www.thingiverse.com/thing:16627
-	Thingiverse user Area51 for their GT2 Belt Clip: https://www.thingiverse.com/thing:2354961
-	Matthew Heironimus for his Arduino Joystick library: https://github.com/MHeironimus/ArduinoJoystickLibrary
-	Adafruit for their ADS11x5 Arduino Library which can be downloaded directly in the Arduino IDE
+# Credit Goes To:
+Thingiverse user akaki for the original joystick model that I modified:  https://www.thingiverse.com/thing:4576634
+
+Thingiverse user droftarts for their OpenSCAD pulley generator:          https://www.thingiverse.com/thing:16627
+
+Thingiverse user Area51 for their GT2 Belt Clip:                         https://www.thingiverse.com/thing:2354961
+
+Matthew Heironimus for his Arduino Joystick library:                     https://github.com/MHeironimus/ArduinoJoystickLibrary
+
+Adafruit for their ADS11x5 Arduino Library which can be downloaded directly in the Arduino IDE
 
 
 
@@ -154,25 +157,25 @@ Check out my Calibration Guide video to learn how to calibrate your own joystick
 
 
 # Project Videos:
-Project Overview: https://youtu.be/krna4ZIIvYI
+Project Overview:                                                  https://youtu.be/krna4ZIIvYI
 
-Chair Mounting Solution and Throttle-Assembly Build Explanation: https://youtu.be/rQSjNkJ6G9A
+Chair Mounting Solution and Throttle-Assembly Build Explanation:   https://youtu.be/rQSjNkJ6G9A
 
-Joystick Approximate Build Guide: https://youtu.be/sCnEafJgWUY
+Joystick Approximate Build Guide:                                  https://youtu.be/sCnEafJgWUY
 
-Joystick Calibration Guide: https://youtu.be/MGDJYMHP4_0
+Joystick Calibration Guide:                                        https://youtu.be/MGDJYMHP4_0
 
-Full Build Timelapse (5x Real Speed): https://youtu.be/Amg51pNDD08
+Full Build Timelapse (5x Real Speed):                              https://youtu.be/Amg51pNDD08
 
 
 # Elite Dangerous Sample Gameplay Videos Using My Joysticks:
 
-Bounty Hunting: https://youtu.be/YqyOV4E18Ls
+Bounty Hunting:                                https://youtu.be/YqyOV4E18Ls
 	
-Mining: https://youtu.be/bz7r8q-hPg0
+Mining:                                        https://youtu.be/bz7r8q-hPg0
 	
-Traveling Between Systems: https://youtu.be/_PC3MqTWRCQ
+Traveling Between Systems:                     https://youtu.be/_PC3MqTWRCQ
 	
-- Vulture Ship Outfitting (bounty hunting): https://youtu.be/YhuHz4nPciU
+- Vulture Ship Outfitting (bounty hunting):    https://youtu.be/YhuHz4nPciU
 	
-- Anaconda Ship Outfitting (mining): https://youtu.be/gqCUKOQVyXI
+- Anaconda Ship Outfitting (mining):           https://youtu.be/gqCUKOQVyXI

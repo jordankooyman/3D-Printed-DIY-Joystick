@@ -1,3 +1,6 @@
+//Written By: Jordan Kooyman
+//		7/2021
+
 //Button Number Mapping:
 
 //Face: (up,down,left,right,click)

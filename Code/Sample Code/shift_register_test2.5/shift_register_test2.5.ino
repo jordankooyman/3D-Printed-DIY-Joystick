@@ -1,3 +1,6 @@
+//Written By: Jordan Kooyman
+//		7/2021
+
 #define CLOCK_PIN2 14  //Green
 #define CLOCK_ENABLE_PIN2 10  //White
 #define SERIAL_IN_PIN2 5 //Red(Yellow)  ---Blue

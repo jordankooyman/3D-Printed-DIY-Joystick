@@ -199,7 +199,7 @@ Check out my Calibration Guide video to learn how to calibrate your own joystick
 
 
 # Project Videos:
-Project Overview:													https://youtu.be/krna4ZIIvYI
+Project Overview:													https://youtu.be/e_4dbrvhuwY
 
 Chair Mounting Solution and Throttle-Assembly Build Explanation:	https://youtu.be/rQSjNkJ6G9A
 

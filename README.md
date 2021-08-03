@@ -6,6 +6,9 @@ This model uses hall-effect sensors for high accuracy inputs into flight simulat
 I have also created an optional Throttle-Assembly. To use it, a joystick can be mounted onto the sliding carriage on the Throttle-Assembly and a 3-pin-wire can be plugged into the joystick from the Throttle-Assembly, and a switch can be flipped on the joystick base to enable the external throttle input instead of the internal throttle input.
 
 
+Overall, I spent about $175 on this project, but I had some of the parts on hand and I bought others in larger-than-necessary quantities. Depending on where and when your buy your parts  (and exactly what you intend to build), you overall cost will vary significantly.
+
+
 
 -- This is NOT a beginner-friendly project as this is still an early prototype with some convoluted assembly --
 

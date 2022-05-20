@@ -1,6 +1,9 @@
 # 3D-Printed DIY Joystick
 A 3D-Printable Joystick for use with PC flight simulators
 
+Updated!
+New arduino code has been included in the code folder that should be much more reliable and easier to modify and work with.
+
 This model uses hall-effect sensors for high accuracy inputs into flight simulators. The Joystick features 3 axes of movement (Pitch, Roll, and Yaw), and one potentiometer mounted in the base to act as a Throttle input (but it can be used as trim as well). 606 Bearings are used on the pitch and roll axes for smooth operation and longevity. A steel rod is used as the pivot point for the yaw axis. Due to the number of buttons included in the joystick (24), 3 8-bit shift registers are used to reduce the output wire count to a more reasonable number. Everything is connected to an Arduino Pro Micro, which uses an Atmega 32u4 processor, which is capable of handling USB communications without additional hardware or software. This means that although this joystick is custom-built, it is compatible with any PC that accepts USB Game Controllers (and maybe some consoles as well).
 
 I have also created an optional Throttle-Assembly. To use it, a joystick can be mounted onto the sliding carriage on the Throttle-Assembly and a 3-pin-wire can be plugged into the joystick from the Throttle-Assembly, and a switch can be flipped on the joystick base to enable the external throttle input instead of the internal throttle input.
@@ -47,6 +50,7 @@ Adafruit for their ADS11x5 Arduino Library which can be downloaded directly in t
 
 # Code Configuration
 The sample code is based on my right joystick code, which has one of the 4 hat switch inputs on the lower shift register. The reference code for the left joystick does not have this.
+The same applies to the new V4.0 code as well. The new calibration process is very similiar to the old one, but it should be much more reliable and quicker.
 
 
 

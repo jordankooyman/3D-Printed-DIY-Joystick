@@ -1,5 +1,7 @@
 # 3D-Printed DIY Joystick
 A 3D-Printable Joystick for use with PC flight simulators
+![Throttle Joystick Side Videw](https://user-images.githubusercontent.com/62574509/198843605-3d08749d-ac97-4a73-a574-a6bc1cc1a229.png)
+
 
 Updated!
 New arduino code has been included in the code folder that should be much more reliable and easier to modify and work with.
@@ -212,7 +214,7 @@ Chair Mounting Solution and Throttle-Assembly Build Explanation:	https://youtu.b
 
 Joystick Approximate Build Guide:									https://youtu.be/sCnEafJgWUY
 
-Joystick Calibration Guide:											https://youtu.be/MGDJYMHP4_0
+Joystick Calibration Guide (Outdated):							https://youtu.be/MGDJYMHP4_0
 
 Full Build Timelapse (5x Real Speed):								https://youtu.be/Amg51pNDD08
 

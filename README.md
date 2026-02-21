@@ -238,9 +238,9 @@ Traveling Between Systems:						https://youtu.be/_PC3MqTWRCQ
 
 - Add more buttons to the handle by adding a fourth shift registers
 
-- Connecting all shift registers to one communications set instead of two seperate communications sets (this requires other passive components from what I have seen)
+- Connecting all shift registers to one communications set instead of two seperate communications sets (this requires a decoupling capacitor to function)
 
-- Change the hat switch out for a Joycon thumbstick - likely connected to the Arduino Pro Micro's 12-bit ADC (should need two inputs)
+- [Optional] Change the hat switch out for a Joycon thumbstick - likely connected to the Arduino Pro Micro's 12-bit ADC (should need two inputs)
 
 - Improve the cable storage technique 
 
@@ -254,14 +254,24 @@ Traveling Between Systems:						https://youtu.be/_PC3MqTWRCQ
 
 - Design a custom PCB for the handle - likely using short extension wires for each button
 
-- Use a 10K Ohm Bourne (?) Resistor Array (9 pin, bussed) for each shift register on a PCB (and try to avoid SMD components so all can be hand soldered easily)
+- Use a 10K Ohm Resistor Array (9 pin, bussed) for each shift register on a PCB (and try to avoid SMD components so all can be hand soldered easily)
 
 - Design a custom PCB for the Joystick Base electronics section (with the ability to use an auxiliary ADC, or use internal ADC (and trim board shorter??))
 
-- Improve the ribbon cable that joins the joystick handle and base (more flexibility and/or durability?)
+- Improve the ribbon cable that joins the joystick handle and base (more flexibility and durability)
 
 - Improve the external throttle connection location (as well as the slide switch)
 
-- Improve Yaw axis mounting
+- Revise throttle sensing mechanism to be more robust and simpler while maintaining long travel and absolute positioning with 0.1mm accuracy
+
+- Improve Yaw axis mounting (move inside handle)
+
+- Revise Yaw return-to-center with pair of torsion springs inside, longer fixed shaft with bearings, and a printed part on top with set screw to attach top bearing and springs and magnet to
 
 - Simplify Build Guide and add a picture to each step
+
+- Redesign code architecture to allow for dynamic callibrations to be generated and stored using a PC utility
+
+- Improve resolution of hall sensor readings to allow for smoother movement when range is cropped
+
+- Improve hall sensor mounting and wiring on pitch/roll axes
